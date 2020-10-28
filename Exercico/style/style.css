@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px 10px 100px;
+}
+
+.imagem_logo {
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_title {
+    padding: 20px;
+    color: #3A6A8B;
+    height: 100%; /*IMPORTANTE PARA O LINK, ELE FAZ COM QUE O CAMPO DE ACESSO SEJA MAIOR AO USUÁRIO!!*/
+    text-decoration: none;
+}
+
+.menu_title:hover {
+    font-weight: bold;
+}
+
+.title_img {
+    display: flex;
+    background-image: url('../images/alena.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+}
+
+.container {
+    width: 768px;
+    margin: 0 auto;
+}
+
+.produto {
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr );
+    margin: 20px 0;
+    grid-area: 20px;
+}
+
+.produto_icon {
+    width: 200px;
+}
+
+.icon_title {
+    text-align: center;
+}
+
+.icon {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+    width: 33,3333%;
+}
+
+.title {
+    color: blue;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: gray;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_footer {
+    padding: 10px;
+    color: #3A6A8B;
+}
