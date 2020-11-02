@@ -13,16 +13,16 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-gap: 3px;
-    border: 5px solid black;
+    border: 10px solid black;
 }
 
 .mini_block {
- background-color: gray;
+ background-color: rgb(54, 54, 54);
 }
 
 .nice {
     position: relative;
     left: 50%;
     top: 50%;
-    background-color: aquamarine;
+    background-color: greenyellow;
 }

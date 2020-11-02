@@ -1,0 +1,29 @@
+.body {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 8px;
+   background-color: black;
+   height: 400px;
+   width: 400px;
+   padding: 8px;
+   position: relative;
+   bottom: 0;
+   transition: 1s bottom linear;
+}
+
+.block {
+    position: relative;
+    background-color: rebeccapurple;
+}
+
+.container:hover .top {
+    bottom: 100%;
+}
+

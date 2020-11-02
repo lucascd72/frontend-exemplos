@@ -1,0 +1,110 @@
+/* 
+  Color Pallette: https://coolors.co/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
+  Font Pairing: https://www.reliablepsd.com/ultimate-google-font-pairings/ -> Cormorant Garamond + Fira Sans
+*/
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    color: #343a40;
+    background-color: #f8f9fa;
+    font-size: 62.5%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Cormorant Garamond", serif;
+    color: #212529;
+  }
+  
+  a {
+    color: #343a40;
+    transition: color 0.3s linear;
+  }
+  
+  a:hover {
+    color: #adb5bd;
+  }
+  
+  .blog-header {
+    text-align: center;
+    position: relative;
+  }
+  
+  .main-title {
+    font-size: 4rem;
+    padding: 5rem;
+    font-family: "title_font", sans-serif;
+    font-weight: 100;
+  }
+  
+  .navigation {
+    display: block;
+    border-top: 0.1rem solid #adb5bd;
+    border-bottom: 0.1rem solid #adb5bd;
+    background-color: #e9ecef;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+
+  }
+  
+  .navigation-list__item {
+    display: inline-block;
+    font-size: 1rem;
+  }
+  
+  .navigation-list__link {
+    display: inline-block;
+    padding: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .blog-content {
+    margin: 0 auto;
+  }
+  
+  .post__item-wrapper {
+    padding: 3rem 0;
+  }
+  
+  .post__item-wrapper:nth-child(even) {
+    background-color: #e9ecef;
+  }
+  
+  .post__item {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .post__item-title {
+    font-size: 2rem;
+    font-family: "extra_font", serif;
+  }
+  
+  .post__item-summary {
+    font-size: 1.4rem;
+  }
+  
+  .post__item-link-wrapper {
+    text-align: right;
+  }
+  
+  .post__item-link {
+    padding: 0.5rem;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.3rem;
+  }
+  
+  .blog-footer {
+    padding: 2rem;
+    text-align: center;
+    color: #ced4da;
+    background-color: #212529;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
