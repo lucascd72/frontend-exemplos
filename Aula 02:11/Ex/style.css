@@ -1,0 +1,33 @@
+.body {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    height: 7rem;
+    width: 70rem;
+    position: relative;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    height: 5rem;
+    width: 15rem;
+    position: absolute;
+    transition: 5s left linear, 5s transform linear;
+    left: 0;
+    transform: translateX(0);
+}
+
+.container:hover .box{
+    left: 100%;
+    transform: translateX(-100%);
+}
