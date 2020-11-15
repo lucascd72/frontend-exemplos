@@ -1,0 +1,161 @@
+/* 
+  Color Pallette: https://coolors.co/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
+  Font Pairing: https://www.reliablepsd.com/ultimate-google-font-pairings/ -> Cormorant Garamond + Fira Sans
+*/
+body {
+    font-family: "Fira Sans", sans-serif;
+    color: #343a40;
+    background-color: #f8f9fa;
+    font-size: 62,5%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Cormorant Garamond", serif;
+    color: #212529;
+  }
+  
+  a {
+    color: #343a40;
+    transition: color 0.3s linear;
+  }
+  
+  a:hover {
+    color: #adb5bd;
+  }
+  
+  .blog-header {
+    text-align: center;
+  }
+  
+  .main-title {
+    font-size: 48px;
+    padding: 50px;
+  }
+  
+  .navigation {
+    display: block;
+    border-top: 1px solid #adb5bd;
+    border-bottom: 1px solid #adb5bd;
+    background-color: #e9ecef;
+  }
+  
+  .navigation-list__item {
+    display: inline-block;
+  }
+  
+  .navigation-list__link {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .blog-content {
+    margin: 0 auto;
+  }
+  
+  .post__item-wrapper {
+    padding: 30px 0;
+  }
+  
+  .post__item-wrapper:nth-child(even) {
+    background-color: #e9ecef;
+  }
+  
+  .post__item {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .post__item-title {
+    font-size: 24px;
+  }
+  
+  .post__item-summary {
+    font-size: 18px;
+  }
+  
+  .post__item-link-wrapper {
+    text-align: right;
+  }
+  
+  .post__item-link {
+    padding: 5px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 28px;
+  }
+  
+  .blog-footer {
+    padding: 10px;
+    text-align: center;
+    color: #ced4da;
+    background-color: #212529;
+  }
+
+  .blog-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: auto;
+    width: auto;
+  }
+
+
+  .form {
+      display: inline;
+      text-align: center;
+      padding: 2rem;
+      text-align: start;
+      font-size: 1.4rem;
+      font-size: 1rem;
+  }
+
+  input {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid black;
+      background-color: transparent;
+      margin-bottom: 2rem;
+      
+  }
+
+  textarea {
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      display: inline-block;
+      border-bottom: 1px solid black;
+      margin-bottom: 2rem;
+  }
+
+  #button {
+      border: 1px solid black;
+      border-radius: 20px;
+      width: auto;
+      background-color: #212529;
+      color: white;
+      padding: 10px;
+      text-align: end;
+      justify-content: end;
+      align-items: flex-end;
+  }
+
+  .title-form {
+      text-align: center;
+      padding-bottom: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container {
+      width: 40%;
+      padding: 1.8rem;
+      background-color: #adb5bd;
+      margin: 2rem;
+      border: 2px solid #343a40;
+      border-radius: 20px;
+      box-shadow: 4px 0px 13px -2px rgba(0,0,0,0.75);;
+  }
